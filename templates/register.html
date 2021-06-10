@@ -9,6 +9,12 @@
 <body>
     <h1>Welcome to my registration page</h1>
     <h2>have you registered before? then</h2>
+    <form method= 'POST' action="">
+        {{form.hidden_tag()}}
+        {{form.username}}
+        {{form.username}}
+        {{form.submit}}
+    </form>
     <a href="{{ url_for ('login')}}">login</a>
 </body>
 </html>
